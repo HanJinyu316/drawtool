@@ -40,7 +40,7 @@ def paint( event ):
    x1, y1 = ( event.x - thickness ), ( event.y - thickness )
    x2, y2 = ( event.x + thickness), ( event.y + thickness ) #thickness为圆点半径，代表画笔粗细
    canvas.create_oval( x1, y1, x2, y2, fill = color,outline="" ) #以点连成线
-   print(thickness)
+
 
 
 win=Tk()
